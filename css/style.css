@@ -17,7 +17,7 @@ html,
 body {
   width: 100%; }
 
-.section_title {
+.section-title {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 35px;
@@ -25,7 +25,7 @@ body {
   text-align: center;
   position: relative;
   margin-bottom: 160px; }
-  .section_title:after {
+  .section-title:after {
     content: '';
     display: inline-block;
     width: 90px;
@@ -38,9 +38,9 @@ body {
     -ms-transform: translate(-50%, 0);
     -o-transform: translate(-50%, 0);
     transform: translate(-50%, 0); }
-  .section_title--white {
+  .section-title--white {
     color: #fff; }
-    .section_title--white:after {
+    .section-title--white:after {
       border-bottom: 2px solid #fff; }
 
 .container {
@@ -171,9 +171,9 @@ body {
     .content a:hover, .content a:focus {
       color: white; }
 
-.item_image {
+.item-image {
   display: inline-block; }
-  .item_image img {
+  .item-image img {
     height: 470px;
     -webkit-transform: translate(50%, 5px);
     -moz-transform: translate(50%, 5px);
@@ -193,7 +193,7 @@ body {
   .works:focus .overlay {
     opacity: 1; }
 
-.works_image {
+.works-image {
   width: 100%; }
 
 .overlay {
@@ -233,7 +233,7 @@ body {
     background-color: rgba(0, 0, 0, 0.75);
     border: 2px solid rgba(0, 0, 0, 0.75); }
 
-.work_button {
+.work-button {
   margin: 80px auto 0 auto;
   width: 370px;
   color: rgba(0, 0, 0, 0.75);
@@ -287,13 +287,13 @@ body {
   .input--cropwidth:first-of-type {
     margin-right: 65px; }
 
-.footer_button {
+.footer-button {
   margin: 50px auto 0 auto;
   width: 190px;
   color: #fff;
   background-color: transparent;
   border: 2px solid #fff; }
-  .footer_button:hover, .footer_button:focus {
+  .footer-button:hover, .footer-button:focus {
     color: rgba(0, 0, 0, 0.75);
     background-color: #fff;
     border: 2px solid #fff; }

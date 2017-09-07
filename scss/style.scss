@@ -25,7 +25,7 @@ body {
 	width:100%;
 }
 
-.section_title{ //универсально для всех свойства заголовка с модификатором
+.section-title{ //универсально для всех свойства заголовка с модификатором
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
 	font-size: 35px;
@@ -216,7 +216,7 @@ body {
 		}
 	}
 }
-.item_image {
+.item-image {
 	display: inline-block;
 	img {
 	height: 470px;
@@ -243,7 +243,7 @@ body {
 	}
 }
 
-.works_image {
+.works-image {
 	width: 100%;
 }
 
@@ -289,7 +289,7 @@ body {
 	}
 }
 
-.work_button {
+.work-button {
 
 	margin: 80px auto 0 auto;
 	width: 370px;
@@ -356,7 +356,7 @@ body {
 
 }
 
-.footer_button {
+.footer-button {
 	margin: 50px auto 0 auto;
 	width: 190px;
 	color: #fff;
